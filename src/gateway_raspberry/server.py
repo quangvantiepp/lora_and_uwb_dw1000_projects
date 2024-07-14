@@ -132,13 +132,13 @@ lora.set_mode(MODE.STDBY)
 # Cấu hình công suất phát của module LoRa. pa_select: Tham số này dùng để chọn cấu hình công suất
 lora.set_pa_config(pa_select=1)
 
-''' Thay đổi config ban đầu
+''' Thay đổi config ban đầu nếu không dùng module LoRa SX1278 434.0MHz
 
 # Thay đổi tần số sang 920MHz
-lora.set_frequency(920.0)
+lora.set_freq(920.0)
 
 # Thay đổi băng thông sang 250kHz
-lora.set_bandwidth(250)
+lora.set_bw(250)
 
 # Thay đổi tỷ lệ mã hóa 
 lora.set_coding_rate(4)
@@ -146,11 +146,10 @@ lora.set_coding_rate(4)
 # Thay đổi số chip mỗi symbol 
 lora.set_spreading_factor(128)
 
-# Bật kiểm tra CRC
-lora.set_crc_enable(True)
-
 # Thay đổi mức công suất phát
-lora.set_pa_config(pa_select=0, max_power=20)'''
+# lora.set_pa_config(pa_select=0, max_power=20)
+
+'''
 
 try:
     # Khởi động module giao tiếp LoRa
