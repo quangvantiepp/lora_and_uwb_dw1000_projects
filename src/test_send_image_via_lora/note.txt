@@ -1,0 +1,10 @@
+Arduino Code:
+
+Đọc dữ liệu ảnh từ thẻ SD.
+Chia nhỏ ảnh thành các gói dữ liệu.
+Gửi từng gói và chờ nhận ACK từ Raspberry Pi. Nếu không nhận được ACK, gửi lại gói đó.
+Raspberry Pi Code:
+
+Nhận các gói dữ liệu.
+Gửi ACK cho mỗi gói dữ liệu nhận được.
+Ghép các gói dữ liệu thành tệp ảnh.
