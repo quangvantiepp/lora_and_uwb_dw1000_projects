@@ -2,6 +2,8 @@
 #include "DW1000Ranging.h"
 #include "DW1000.h"
 
+// For ESP32 UWB Pro with Display this code run ok and send distance ok
+
 #define SPI_SCK 18
 #define SPI_MISO 19
 #define SPI_MOSI 23
