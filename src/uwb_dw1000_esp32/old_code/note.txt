@@ -1,0 +1,13 @@
+1, UWB DW1000 pro of Makerfabs-ESP32-UWB:
+   1, Link git tham khảo code của Makerfabs-ESP32-UWB: https://github.com/Makerfabs/Makerfabs-ESP32-UWB?tab=readme-ov-file
+   2, Clone code project này về từ nhánh main: khi clone về xong thư mục sẽ có tên là: Makerfabs-ESP32-UWB
+   3, Mở thư mục đã clone về từ (2) Makerfabs-ESP32-UWB: tìm thư mục mf_DW1000.zip, đây là thư viện đã được Makerfabs custom phù hợp với hardware của họ
+      -Tiến hành cài đặt thư viện này: gỡ thư viện DW1000 cũ trên Arduino IDE, đổi tên thư mục này mf_DW1000.zip thành DW1000.zip và import library này vào Arduino IDE
+2, Tiến hành chạy thử code
+   2.1 code anchor = sender = module có display
+   2.2 code tag = receiver = module còn lại
+   - link code test trên git, hoặc mở trong 2 thư mục đính kèm trong tệp này: https://github.com/quangvantiepp/lora_and_uwb_dw1000_projects/tree/master/src/uwb_dw1000_esp32/old_code
+
+3, Hướng dẫn tham khảo phần README của link git: Link git tham khảo code của Makerfabs-ESP32-UWB: https://github.com/Makerfabs/Makerfabs-ESP32-UWB?tab=readme-ov-file
+   - trong link git này chứa nhiều code mẫu có thể tham khảo thêm
+   - theo makerfabs module này có thể đạt up to 120m~: https://www.makerfabs.com/esp32-uwb-high-power-120m.html
